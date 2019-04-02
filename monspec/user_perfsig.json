@@ -5,13 +5,13 @@
             "aggregation" : "avg",
             "tags" : "service:user,environment:dev",
             "upperLimit" : 3000.0,
-            "lowerLimit" : 2800.0
+            "lowerLimit" : 0.0
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
             "tags" : "service:user,environment:dev",
-            "upperLimit" : 5.0,
+            "upperLimit" : 20.0,
             "lowerLimit" : 0.0
         }
     ]
